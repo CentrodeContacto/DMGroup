@@ -1,0 +1,9 @@
+:root{--g:#1f6b45;--bg:#f5f7f6}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--bg)}
+.app{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
+.sidebar{background:#173f2b;color:#fff;padding:24px}
+.sidebar a{display:block;color:#fff;text-decoration:none;padding:10px 0}
+.topbar{background:#fff;padding:16px;border-bottom:1px solid #ddd}
+.topbar input{width:100%;padding:10px;border:1px solid #ccc;border-radius:8px}
+.content{padding:32px}
+@media(max-width:800px){.app{grid-template-columns:1fr}.sidebar{display:none}}

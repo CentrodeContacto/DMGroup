@@ -1,0 +1,7 @@
+:root{--green:#1f6b45;--bg:#f5f7f6}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:#24313a}
+.hero{background:#1f6b45;color:#fff;padding:56px 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;padding:30px}
+.card{background:#fff;border-radius:14px;padding:22px;text-decoration:none;color:inherit;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.card:hover{transform:translateY(-2px)}
+h2{margin-top:0}
