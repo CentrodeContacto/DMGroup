@@ -1,30 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Centro de Contacto | DM Group</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="hero">
-  <div class="overlay">
-    <h1>Centro de Contacto</h1>
-    <p>Portal interno · DM Group</p>
-  </div>
-</header>
-
-<main class="container">
-<section class="cards">
-<a class="card" href="#"><h2>Equipo</h2><p>Directorio, misión y valores.</p></a>
-<a class="card" href="#"><h2>Procesos</h2><p>Comercial, RRHH, Sistemas e IGC.</p></a>
-<a class="card" href="#"><h2>Recursos</h2><p>Manuales, documentos y guías.</p></a>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="brand-mark">DM</div><div><strong>Centro de Contacto</strong><small>Portal interno</small></div></div>
+  <nav class="nav">
+    <a class="active" href="index.html">Inicio</a>
+    <a href="pages/equipo.html">Equipo</a>
+    <a href="pages/procesos.html">Procesos</a>
+    <a href="pages/recursos.html">Recursos</a>
+  </nav>
+</aside>
+<main class="main">
+<header class="topbar"><button class="menu-btn" id="menuBtn">☰</button><span>DM Group · Uso interno</span></header>
+<div class="page">
+<section class="hero">
+  <h1>Centro de Contacto</h1>
+  <p>Procesos, herramientas y recursos del equipo de DM Group.</p>
 </section>
-
-<section class="welcome">
-<h2>Bienvenido</h2>
-<p>Este portal centraliza la documentación y los recursos del Centro de Contacto para que el equipo encuentre rápidamente la información que necesita.</p>
+<section class="grid">
+  <a class="card" href="pages/equipo.html"><h2>Equipo</h2><p>Misión, valores y directorio.</p></a>
+  <a class="card" href="pages/procesos.html"><h2>Procesos</h2><p>Comercial, atención, RRHH y sistemas.</p></a>
+  <a class="card" href="pages/recursos.html"><h2>Recursos</h2><p>Manuales, documentos y enlaces útiles.</p></a>
 </section>
+<section class="section">
+  <h2>Nuestro rol</h2>
+  <p>El Centro de Contacto es un punto estratégico de escucha, acompañamiento y acción dentro de DM Group.</p>
+</section>
+<div class="footer">Centro de Contacto · DM Group</div>
+</div>
 </main>
+</div>
+<script src="app.js"></script>
 </body>
 </html>

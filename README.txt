@@ -1,14 +1,15 @@
-Portal v0.1 Integrado
+DMGroup Portal v0.2
 
-Este ZIP unifica los sprints 1 a 5 en un único proyecto base.
+Proyecto integrado y coherente.
 
-Estructura:
-- index.html (Home)
-- styles.css
-- layout.html / layout.css
-- pages/
-    equipo.html
-    procesos.html
-    recursos.html
+Incluye:
+- Home
+- Layout compartido
+- Navegación funcional
+- Equipo
+- Procesos
+- Recursos
+- Responsive
+- CSS y JS globales
 
-A partir de esta versión, las siguientes entregas deberán modificar ESTE proyecto, no crear ZIPs independientes.
+Para probarlo, abrir index.html.

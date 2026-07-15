@@ -3,32 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="recursos.css">
 <title>Recursos | Centro de Contacto</title>
+<link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<header class="hero">
-<h1>Recursos</h1>
-<p>Centralizá documentos, manuales y enlaces útiles.</p>
-</header>
+<div class="app">
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="brand-mark">DM</div><div><strong>Centro de Contacto</strong><small>Portal interno</small></div></div>
+  <nav class="nav">
+      <a href="../index.html">Inicio</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="procesos.html">Procesos</a>
+      <a href="recursos.html" class="active">Recursos</a>
+    </nav>
+</aside>
+<main class="main">
+<header class="topbar"><button class="menu-btn" id="menuBtn">☰</button><span>DM Group · Uso interno</span></header>
+<div class="page">
+<section class="hero"><h1>Recursos</h1><p>Manuales, documentos y accesos rápidos.</p></section>
 
-<main class="grid">
-<div class="card">
-<h2>📘 Manuales</h2>
-<p>Listado de manuales operativos.</p>
-</div>
-<div class="card">
-<h2>📄 Documentos</h2>
-<p>PDFs y documentación oficial.</p>
-</div>
-<div class="card">
-<h2>🧩 Plantillas</h2>
-<p>Archivos reutilizables para el equipo.</p>
-</div>
-<div class="card">
-<h2>🔗 Enlaces útiles</h2>
-<p>Accesos a sistemas y herramientas.</p>
+<section class="grid">
+  <article class="card"><h2>Manuales</h2><p>Documentación operativa.</p></article>
+  <article class="card"><h2>Documentos</h2><p>PDF y archivos oficiales.</p></article>
+  <article class="card"><h2>Plantillas</h2><p>Material reutilizable.</p></article>
+</section>
+<section class="section"><h2>Enlaces útiles</h2><ul class="list"><li>Sistemas internos</li><li>Formularios</li><li>Carpetas compartidas</li></ul></section>
+
+<div class="footer">Centro de Contacto · DM Group</div>
 </div>
 </main>
+</div>
+<script src="../app.js"></script>
 </body>
 </html>
